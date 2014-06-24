@@ -1,4 +1,4 @@
-BUNDLE_VERSION=0.1
+BUNDLE_VERSION=0.2
 
 DESTDIR="/tmp/ci-dep-bundle"
 

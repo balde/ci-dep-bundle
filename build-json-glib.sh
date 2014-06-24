@@ -40,6 +40,8 @@ tar \
 
 mkdir -p "${JSON_GLIB_BUILD_DIR}"
 
+export LDFLAGS="-Wl,--no-as-needed"
+
 pushd "${JSON_GLIB_BUILD_DIR}" > /dev/null
 
 "${JSON_GLIB_SRC_DIR}/configure" \

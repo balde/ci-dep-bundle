@@ -29,6 +29,8 @@ mkdir -p "${GLIB_BUILD_DIR}"
 
 pushd "${GLIB_BUILD_DIR}" > /dev/null
 
+export LDFLAGS="-Wl,--no-as-needed"
+
 "${GLIB_SRC_DIR}/configure" \
     --prefix="${GLIB_PREFIX_DIR}" \
     --with-threads=posix \
