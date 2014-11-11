@@ -4,7 +4,7 @@ set -ex
 
 source settings.sh
 
-GLIB_VERSIONS=( 2.34.3 2.38.2 2.40.0 2.41.0 )
+GLIB_VERSIONS=( 2.34.3 2.38.2 2.40.2 2.43.0 )
 JSON_GLIB_VERSIONS=( 0.16.2 0.99.2 1.0.2 )
 BLACKLIST=( 2.34.3/0.99.2 2.34.3/1.0.2 )
 
